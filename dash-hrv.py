@@ -189,7 +189,8 @@ app = Dash(
 app.layout = html.Div(
     children=[
         html.H1("HRV Analysis", style={"text-align": "center"}),
-        html.Div("Explore relationship between various HRV indices of Healthy and Congestive Heart Failure (CHF) subjects", style={"text-align": "center"}),
+        html.Div("Explore relationship between various short-term HRV indices of Healthy and Congestive Heart Failure (CHF) subjects", style={"text-align": "center"}),
+        html.Div("Short-term HRV indices were computed using 5 minutes ECG recording", style={"text-align": "center"}),
         html.Br(),
         html.Br(),
         html.Div(
